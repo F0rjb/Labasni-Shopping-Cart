@@ -5,15 +5,19 @@
     font-family: 'Work Sans', sans-serif;
 
 }
+
 body{
     font-family: sans-serif;
     background-color: #264653;
 }
+
 i{
     cursor: pointer;
 }
+
 a{text-decoration: none;
-color: white;}
+color: white;
+}
 /**
 *! Navbar settings
 **/
@@ -27,10 +31,7 @@ color: white;}
     align-items: center;
     font-family: Roboto;
     font-weight: bold 800;
-    
-
-
-}
+    }
 
 .cart{
     background-color: #fff;
@@ -60,6 +61,7 @@ color: white;}
     gap: 30px;
     justify-content: center;
     
+    
 }
 
 @media(max-width:1000px){
@@ -83,6 +85,7 @@ color: white;}
     flex-direction: column;
     padding: 10px;
     gap: 10px;
+    background-color: #3c6e71;
 }
 .price-quantity{
     position: relative;
@@ -115,15 +118,7 @@ i{
     text-align: center;
     margin-bottom: 20px;
 }
-.Homebtn{
-    background-color: #012f41;
-    color: white;
-    border: none;
-    padding: 6px;
-    border-radius: 3px;
-    cursor: pointer;
 
-}
 .cart-item{
     color: white;
 }
@@ -171,8 +166,27 @@ i{
 
 }
 
+.fa-thin .fa-meteor{
+    font-weight: 700;
+    z-index: 4000;
+    color: white;
+}
+.empty,.totalbill{
+    color: white;
+}
+.Homebtn,.checkout, .removeAll{
+    background-color: #231942;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 800;
 
-
+}
+.checkout{background: green;}
+.removeAll{background-color: red;}
 
 
 
