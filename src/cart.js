@@ -20,18 +20,23 @@ let generateCartItems = () => {
 
             <div class="title-price-x">
             <h4 class="title-price">
-            <p>${name}</p>
-            <p class="cart-item-price">${price} $ </p></h4>
+            <p>${name}</p>  
             <i onclick="removeItem(${id})"class="bi bi-x-lg"></i>
             </div>
-
+            <p class="cart-item-price">${price} $ </p></h4>
+            <img src="img/suit-heart-fill.svg" class="heart" >
+            <div class="bottom-details">
+            
+            <h3 class="item-total-price">${item * price} $</h3>
             <div class="buttons">
                     <i onclick="decrement(${id})" class="bi bi-dash-lg"></i>                  
                     <div class="quantity" id=${id}>${item}</div>
                     <i onclick="increment(${id})" class="bi bi-plus-lg"></i>               
             </div>
+            </div> 
+            
 
-            <h3>${item * price} $</h3>
+            
 
             </div>
 
