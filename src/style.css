@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #264653;
+    background-image: url('img/bgg.jpg');
+
+}
+
+i {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/**
+  *! Navbar settings
+  **/
+.navbar {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 25px 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+    font-family: Roboto;
+    font-weight: bold 800;
+    position: sticky;
+    top: 0;
+
+
+}
+
+.cart {
+    background-color: #fff;
+    color: #370617;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.cartamount {
+    font-size: 16px;
+    background: red;
+    color: white;
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    padding: 3px;
+    border-radius: 3px;
+    font-weight: 800;
+}
+
+/**
+  *! shop here
+  **/
+.shop {
+    display: grid;
+    grid-template-columns: repeat(4, 223px);
+    gap: 60px;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .shop {
+        grid-template-columns: repeat(2, 223px);
+    }
+}
+
+@media (max-width: 500px) {
+    .shop {
+        grid-template-columns: repeat(1, 223px);
+    }
+}
+
+.item {
+    border: 2px solid #370617;
+    border-radius: 4px;
+    background-color: #e76f51;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    height: 219px;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+    background-color: #3c6e71;
+
+}
+
+
+.home-details {
+    height: 185px;
+}
+
+.price-quantity {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bi-dash-lg {
+    color: red;
+}
+
+.bi-plus-lg {
+    color: greenyellow;
+}
+
+i {
+    cursor: pointer;
+}
+
+/**
+  *! Cart styles
+  **/
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    color: white;
+}
+
+.bi-x-lg {
+    color: red;
+    font-weight: bold;
+}
+
+/**
+  *! Style for shopping cart
+  **/
+.shopping-cart {
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    justify-content: center;
+    justify-items: center;
+    gap: 40px;
+}
+
+.cart-details {
+    height: 100%;
+
+
+}
+
+/**
+  *! Cart item
+  **/
+.cart-item {
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.title-price-x {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: #fff;
+    flex-direction: row;
+
+}
+
+.title-price {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.cart-item-price,
+.total-price {
+    background-color: #2a9d8f;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 3px 6px;
+    text-align: center;
+    width: fit-content;
+    align-content: center;
+
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fa-thin .fa-meteor {
+    font-weight: 700;
+    z-index: 4000;
+    color: white;
+}
+
+.empty,
+.totalbill {
+    color: white;
+}
+
+.Homebtn,
+.checkout,
+.removeAll {
+    background-color: #231942;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 800;
+}
+
+.checkout {
+    background: green;
+}
+
+.removeAll {
+    background-color: red;
+}
+
+.heart {
+    height: 20px;
+}
+
+.bottom-details {
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-total-price {
+    background-color: #2a9d8f;
+    color: #fff;
+
+    border-radius: 4px;
+    padding: 2px;
+    font-size: medium;
+}
+
+footer {
+    position: static;
+    align-items: center;
+    border: #2a9d8f solid;
+    border-width: 0.1px;
+    padding-right: 1fr;
+    padding-left: 1fr;
+    color: #fff;
+    margin-top: 40px;
+    bottom: 0;
+    margin-bottom: -5px;
+}
