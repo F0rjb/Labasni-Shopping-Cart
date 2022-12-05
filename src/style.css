@@ -138,6 +138,11 @@ i {
     cursor: pointer;
 }
 
+.heart {
+    height: 20px;
+    width: auto;
+}
+
 /**
   *! Cart styles
   **/
