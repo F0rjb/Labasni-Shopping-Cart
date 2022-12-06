@@ -21,6 +21,10 @@ a {
     color: white;
 }
 
+.icon-page {
+    background-color: none;
+}
+
 /**
   *! Navbar settings
   **/
@@ -85,7 +89,7 @@ a {
 }
 
 .item {
-   
+
     border-radius: 18px;
     background-color: #e76f51;
 
@@ -125,7 +129,7 @@ a {
     justify-items: center;
     justify-content: space-between;
     align-items: center;
-    
+
 
 }
 
