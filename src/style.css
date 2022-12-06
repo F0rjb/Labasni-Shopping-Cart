@@ -85,9 +85,10 @@ a {
 }
 
 .item {
-    border: 2px solid #370617;
-    border-radius: 4px;
+   
+    border-radius: 18px;
     background-color: #e76f51;
+
 }
 
 .details {
