@@ -36,6 +36,7 @@ a {
     font-weight: bold 800;
     position: sticky;
     top: 0;
+    z-index: 999;
 
 
 }
@@ -123,6 +124,7 @@ a {
     justify-items: center;
     justify-content: space-between;
     align-items: center;
+    
 
 }
 
@@ -255,6 +257,7 @@ i {
 
 .heart {
     height: 20px;
+    cursor: pointer;
 }
 
 .bottom-details {
