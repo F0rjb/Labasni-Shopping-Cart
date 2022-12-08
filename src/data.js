@@ -5,6 +5,7 @@ let shopItemsdata = [
     price: 140,
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
     Image: "img/sneakers1.jpg",
+    amount: 1,
   },
   {
     id: "kpoypongpokmlklk",
@@ -12,6 +13,7 @@ let shopItemsdata = [
     price: 160,
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
     Image: "img/sneakers.jpg",
+    amount: 1,
   },
   {
     id: "kjkjgpkfopknn",
@@ -19,6 +21,7 @@ let shopItemsdata = [
     price: 189,
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
     Image: "img/sneaker2.jpg",
+    amount: 1,
   },
   {
     id: "pkpogkpoknpgnk",
@@ -26,6 +29,7 @@ let shopItemsdata = [
     price: 120,
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
     Image: "img/sneakers3.jpg",
+    amount: 1,
   },
   {
     id: "pokhpgocpoknfpkn",
@@ -33,6 +37,7 @@ let shopItemsdata = [
     price: 250,
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
     Image: "img/sneakers4.jpg",
+    amount: 1,
   },
   {
     id: "pkjponkopfknpkk",
@@ -40,6 +45,7 @@ let shopItemsdata = [
     price: 179,
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
     Image: "img/sneakers5.jpg",
+    amount: 1,
   },
   {
     id: "pkogfpnokfpnkpoknpfkh",
@@ -47,6 +53,7 @@ let shopItemsdata = [
     price: 129,
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
     Image: "img/sneakers6.jpg",
+    amount: 1,
   },
   {
     id: "opfknpofpnkpofkpnk",
@@ -54,5 +61,6 @@ let shopItemsdata = [
     price: 149,
     desc: "Lorem ipsum, dolor sit amet consectetur adipisicing.",
     Image: "img/nike shoe.jpg",
+    amount: 1,
   },
 ];
